@@ -1,0 +1,41 @@
+[{
+  "Id" : 1,
+  "SellRent": 1,
+  "Name": "Galaxy House",
+  "Type": "flat",
+  "Price": 30000,
+  "Image": "prop-1"
+},
+{
+  "Id" : 2,
+  "SellRent": 1,
+  "Name": "Sunfield House",
+  "Type": "flat",
+  "Price": 39000,
+   "Image": "prop-2"
+},
+
+{
+  "Id" : 3,
+  "SellRent": 2,
+  "Name": "Shine House",
+  "Type": "Villa",
+  "Price": 450000
+},
+{
+  "Id" : 4,
+  "SellRent": 1,
+  "Name": "Omaxe House",
+  "Type": "flat",
+  "Price": 5600,
+   "Image": "prop-3"
+},
+
+{
+  "Id" : 5,
+  "Name": "Eldeco House",
+  "Type": "flat",
+  "Price": 36700,
+   "Image": "prop-4"
+}]
+

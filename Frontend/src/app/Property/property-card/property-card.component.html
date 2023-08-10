@@ -1,16 +1,24 @@
-
-  <div class ="row align-items-start">
-  <div class = "shadow-lg col-sm-3 p-3">
-  <div class = "card border-0"  >
-
-    <img class = "propimg"src = "assets/image/houseicon.jpg">
-    <div class = "card-body p-2 ">
-
-    <h3>{{property.name}} </h3>
-    <h4>{{property.type}} </h4>
-    <h5>{{property.price}} </h5>
-  </div>
-  </div>
+<div class = "card "  >
+  <div class = "card-img">
+  <div class = "card-imgwrapper">
+<img *ngIf = "property.Image"class ="card-img-top"src = "assets/image/{{property.Image}}.jpg">
+     <img *ngIf = "!property.Image"class ="card-img-top"src = "assets/image/houseicon.jpg">
+     <ul class = "list-inline text-center member-icons animate">
+       <li class = "list-inline-item text-center">
+         <button class = "btn btn-success"><i class="fa-solid fa-pen-to-square"></i></button>
+       </li>
+       <li class = "list-inline-item text-center">
+        <button class = "btn btn-success"routerLink='/property-detail/{{property.Id}}' routerLinkActive="router-link-active" ><i class="fa-solid fa-address-card"></i></button>
+       </li>
+     </ul>
   </div>
 </div>
+<div class = "card-body p-2 ">
+      <h3>{{property.Name}} </h3>
+      <h4>{{property.Type}} </h4>
+      <h5>{{property.Price}} </h5>
+  </div>
+</div>
+
+
 
